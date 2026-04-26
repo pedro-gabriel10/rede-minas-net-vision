@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Rede Minas Net" },
+      { name: "description", content: "Rede Minas Net Vision is a modern, visual landing page for a fiber internet provider." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Rede Minas Net" },
+      { property: "og:description", content: "Rede Minas Net Vision is a modern, visual landing page for a fiber internet provider." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Rede Minas Net" },
+      { name: "twitter:description", content: "Rede Minas Net Vision is a modern, visual landing page for a fiber internet provider." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Gqr1jC8sivMavnApV1ShPpeAgJY2/social-images/social-1777216243390-logosemfundo.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Gqr1jC8sivMavnApV1ShPpeAgJY2/social-images/social-1777216243390-logosemfundo.webp" },
     ],
     links: [
       {
