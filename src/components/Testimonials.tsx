@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Quote, Star } from "lucide-react";
 
 const testimonials = [
-  { name: "Marcelo Andrade", city: "Campo Belo / MG", text: "Mudei pra Rede Minas e nunca mais tive problema. Internet estável de verdade, suporte rápido no WhatsApp. Recomendo demais." },
-  { name: "Juliana Reis", city: "Candeias / MG", text: "Trabalho de casa e a conexão é impecável. Atendimento humano, técnico apareceu no mesmo dia da instalação." },
-  { name: "Roberto Faria", city: "Santana do Jacaré / MG", text: "Moro na zona rural e finalmente tenho internet de qualidade. Equipe muito atenciosa, vale cada centavo." },
+  { name: "João", city: "Campo Belo / MG", text: "Depois que troquei para a Rede Minas Net, nunca mais tive dor de cabeça com internet." },
+  { name: "Maria", city: "Santana do Jacaré / MG", text: "Atendimento rápido e internet muito estável. Recomendo de olhos fechados." },
+  { name: "Carlos", city: "Candeias / MG", text: "Finalmente uma internet que funciona bem aqui na região." },
 ];
 
 export function Testimonials() {

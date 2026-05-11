@@ -36,49 +36,66 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="text-5xl sm:text-6xl lg:text-8xl font-bold text-white text-balance leading-[1.02]"
+            className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white text-balance leading-[1.05]"
           >
-            Internet rápida e{" "}
+            Internet fibra rápida e{" "}
             <span className="relative inline-block">
               <span className="bg-gradient-to-r from-[oklch(0.78_0.18_60)] to-[oklch(0.85_0.15_70)] bg-clip-text text-transparent">
-                estável de verdade
+                estável
               </span>
               <svg className="absolute -bottom-2 left-0 w-full" height="12" viewBox="0 0 300 12" fill="none">
                 <path d="M2 9 Q 75 2, 150 6 T 298 4" stroke="oklch(0.72 0.18 50)" strokeWidth="3" strokeLinecap="round" />
               </svg>
-            </span>
+            </span>{" "}
+            para Campo Belo, Santana do Jacaré, Candeias e região.
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="mt-8 text-lg lg:text-xl text-white/75 max-w-2xl text-balance"
+            className="mt-6 sm:mt-8 text-base sm:text-lg lg:text-xl text-white/80 max-w-2xl text-balance"
           >
-            Conexão confiável para sua casa ou empresa, sem dor de cabeça.
-            Fibra óptica de ponta a ponta com atendimento de gente que mora aqui.
+            Chega de travamentos e quedas. Consulte disponibilidade para sua rua e
+            fale com nosso atendimento rapidamente pelo WhatsApp.
           </motion.p>
+
+          <motion.ul
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="mt-7 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-5 text-white/90 text-sm sm:text-base"
+          >
+            {["Alta velocidade real", "Atendimento rápido via WhatsApp", "Cobertura regional"].map((t) => (
+              <li key={t} className="flex items-center gap-2">
+                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[oklch(0.72_0.18_50)] text-white text-xs font-bold">✓</span>
+                <span className="font-medium">{t}</span>
+              </li>
+            ))}
+          </motion.ul>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.45 }}
-            className="mt-10 flex flex-col sm:flex-row gap-4"
+            transition={{ duration: 0.6, delay: 0.5 }}
+            className="mt-9 flex flex-col sm:flex-row gap-3 sm:gap-4"
           >
             <a
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center justify-center gap-2 rounded-full bg-gradient-orange px-7 py-4 text-base font-semibold text-white shadow-orange hover:shadow-elegant hover:scale-[1.03] transition-all"
+              className="group inline-flex items-center justify-center gap-2 rounded-full bg-gradient-orange px-8 py-5 text-base sm:text-lg font-bold text-white shadow-orange hover:shadow-elegant hover:scale-[1.03] transition-all"
             >
-              Falar no WhatsApp
+              Consultar disponibilidade
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
             </a>
             <a
-              href="#planos"
-              className="inline-flex items-center justify-center gap-2 rounded-full border border-white/20 bg-white/5 backdrop-blur px-7 py-4 text-base font-semibold text-white hover:bg-white/10 transition-colors"
+              href={WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-full border border-white/25 bg-white/5 backdrop-blur px-7 py-5 text-base font-semibold text-white hover:bg-white/10 transition-colors"
             >
-              Consultar disponibilidade
+              Falar no WhatsApp
             </a>
           </motion.div>
 
