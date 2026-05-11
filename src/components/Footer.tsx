@@ -1,5 +1,6 @@
-import { Instagram, MapPin, Phone } from "lucide-react";
+import { Instagram, MapPin, Phone, ArrowRight } from "lucide-react";
 import logo from "@/assets/logo.png";
+import { WHATSAPP_LINK } from "./WhatsappFloat";
 
 export function Footer() {
   return (
