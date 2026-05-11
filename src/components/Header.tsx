@@ -32,11 +32,7 @@ export function Header() {
     >
       <div className="container mx-auto px-5 lg:px-8 flex items-center justify-between h-20">
         <a href="#top" className="flex items-center gap-3">
-          <img src={logo} alt="Rede Minas Net" className="h-12 w-12 object-contain" />
-          <div className="leading-tight">
-            <div className="font-display font-bold text-white text-base tracking-wide">REDE MINAS</div>
-            <div className="text-[oklch(0.78_0.18_60)] text-[11px] font-semibold tracking-[0.3em]">N E T</div>
-          </div>
+          <img src={logo} alt="Rede Minas Net" className="h-14 w-auto object-contain drop-shadow-lg" />
         </a>
 
         <nav className="hidden lg:flex items-center gap-8">
