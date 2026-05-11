@@ -82,7 +82,7 @@ export function Plans() {
                     : "bg-primary text-primary-foreground hover:bg-primary/90"
                 }`}
               >
-                Consultar disponibilidade para sua rua
+                Consultar disponibilidade da minha rua
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </a>
             </motion.div>
