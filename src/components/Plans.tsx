@@ -3,11 +3,11 @@ import { Check, Sparkles, ArrowRight } from "lucide-react";
 import { WHATSAPP_LINK } from "./WhatsappFloat";
 
 const plans = [
-  { mega: "350", desc: "Ideal para uso diário, redes sociais e streaming em HD.", features: ["Wi-Fi de alta performance", "Suporte rápido", "Sem fidelidade abusiva"] },
-  { mega: "450", desc: "Para famílias conectadas, jogos online e home office leve.", features: ["Wi-Fi dual band", "Streaming 4K", "Suporte ágil"] },
-  { mega: "620", desc: "Velocidade ideal para casas com muitos dispositivos.", features: ["Wi-Fi 6 disponível", "Smart home pronta", "Latência baixa"], highlight: true },
-  { mega: "750", desc: "Performance pesada para trabalho remoto e gamers.", features: ["Latência mínima", "Upload turbinado", "Estabilidade 24/7"] },
-  { mega: "900", desc: "Topo de linha. Empresas e usuários exigentes.", features: ["Máxima velocidade", "Prioridade no suporte", "Roteador premium"] },
+  { mega: "350", desc: "Ideal para casas conectadas.", features: ["Wi-Fi de alta performance", "Suporte rápido", "Sem fidelidade abusiva"] },
+  { mega: "450", desc: "Mais estabilidade para toda família.", features: ["Wi-Fi dual band", "Streaming 4K", "Suporte ágil"] },
+  { mega: "620", desc: "Excelente desempenho para streaming.", features: ["Wi-Fi 6 disponível", "Smart home pronta", "Latência baixa"], highlight: true },
+  { mega: "750", desc: "Alta performance para muitos dispositivos.", features: ["Latência mínima", "Upload turbinado", "Estabilidade 24/7"] },
+  { mega: "900", desc: "Máximo desempenho.", features: ["Máxima velocidade", "Prioridade no suporte", "Roteador premium"] },
 ];
 
 export function Plans() {
@@ -83,7 +83,7 @@ export function Plans() {
                     : "bg-primary text-primary-foreground hover:bg-primary/90"
                 }`}
               >
-                Consultar disponibilidade
+                Consultar disponibilidade para sua rua
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </a>
             </motion.div>

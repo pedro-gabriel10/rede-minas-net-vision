@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-import { MapPin } from "lucide-react";
+import { MapPin, ArrowRight } from "lucide-react";
 import coverageImg from "@/assets/coverage.jpg";
+import { WHATSAPP_LINK } from "./WhatsappFloat";
 
 const cities = [
   { name: "Campo Belo", state: "MG" },
@@ -27,11 +28,11 @@ export function Coverage() {
               Cobertura
             </span>
             <h2 className="text-4xl lg:text-6xl font-bold text-white text-balance leading-tight">
-              Atendendo sua região com qualidade e proximidade.
+              Atendemos sua região
             </h2>
-            <p className="mt-6 text-lg text-white/70 max-w-lg">
-              Somos uma empresa daqui, atendendo de perto cada cliente, com infraestrutura
-              robusta e equipe técnica local.
+            <p className="mt-6 text-lg text-white/75 max-w-lg">
+              Consulte disponibilidade para sua rua em poucos minutos. Cobertura sujeita
+              à disponibilidade da região.
             </p>
 
             <div className="mt-10 grid sm:grid-cols-2 gap-3">
@@ -54,6 +55,16 @@ export function Coverage() {
                 </motion.div>
               ))}
             </div>
+
+            <a
+              href={WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group mt-8 inline-flex items-center justify-center gap-2 rounded-full bg-gradient-orange px-7 py-4 text-base font-bold text-white shadow-orange hover:scale-[1.03] transition-all"
+            >
+              Verificar disponibilidade
+              <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+            </a>
           </motion.div>
 
           <motion.div
