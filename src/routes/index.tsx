@@ -15,10 +15,11 @@ import { WhatsappFloat } from "@/components/WhatsappFloat";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Rede Minas Net — Internet Fibra Óptica em Campo Belo, Candeias e Região" },
-      { name: "description", content: "Internet fibra óptica rápida e estável em Campo Belo, Santana do Jacaré, Candeias e zonas rurais. Atendimento humano via WhatsApp. Consulte disponibilidade." },
-      { property: "og:title", content: "Rede Minas Net — Internet Fibra Óptica de Verdade" },
-      { property: "og:description", content: "Provedora regional de fibra óptica em Minas Gerais. Conexão estável, suporte ágil, atendimento humanizado." },
+      { title: "Internet Fibra em Campo Belo MG, Santana do Jacaré e Candeias | Rede Minas Net" },
+      { name: "description", content: "Provedor de internet fibra óptica em Campo Belo MG, Santana do Jacaré MG, Candeias MG e zonas rurais. Conexão estável, suporte rápido via WhatsApp. Consulte disponibilidade." },
+      { name: "keywords", content: "internet fibra Campo Belo MG, internet fibra Santana do Jacaré MG, internet fibra Candeias MG, provedor de internet fibra, internet rural Minas Gerais" },
+      { property: "og:title", content: "Internet Fibra em Campo Belo, Santana do Jacaré e Candeias" },
+      { property: "og:description", content: "Provedor regional de fibra óptica em Minas Gerais. Conexão estável e atendimento humanizado via WhatsApp." },
       { property: "og:type", content: "website" },
     ],
     links: [
