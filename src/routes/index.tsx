@@ -7,6 +7,7 @@ import { Plans } from "@/components/Plans";
 import { Differentials } from "@/components/Differentials";
 import { Testimonials } from "@/components/Testimonials";
 import { HowItWorks } from "@/components/HowItWorks";
+import { RegionalTrust } from "@/components/RegionalTrust";
 import { FinalCta } from "@/components/FinalCta";
 import { Footer } from "@/components/Footer";
 import { WhatsappFloat } from "@/components/WhatsappFloat";
@@ -41,6 +42,7 @@ function Index() {
         <Differentials />
         <HowItWorks />
         <Testimonials />
+        <RegionalTrust />
         <FinalCta />
       </main>
       <Footer />
