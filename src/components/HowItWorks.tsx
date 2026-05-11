@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { MessageCircle, Search, Calendar } from "lucide-react";
+import { MessageCircle, Search, Calendar, ArrowRight } from "lucide-react";
+import { WHATSAPP_LINK } from "./WhatsappFloat";
 
 const steps = [
   { n: "01", icon: MessageCircle, title: "Chame no WhatsApp", desc: "Toque no botão e fale com nossa equipe em segundos." },
@@ -43,6 +44,18 @@ export function HowItWorks() {
               <p className="text-muted-foreground max-w-xs mx-auto leading-relaxed">{s.desc}</p>
             </motion.div>
           ))}
+        </div>
+
+        <div className="mt-14 flex justify-center">
+          <a
+            href={WHATSAPP_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center justify-center gap-2 rounded-full bg-gradient-orange px-8 py-4 text-base font-bold text-white shadow-orange hover:scale-[1.03] transition-all"
+          >
+            Começar agora pelo WhatsApp
+            <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+          </a>
         </div>
       </div>
     </section>
