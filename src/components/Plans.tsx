@@ -19,11 +19,10 @@ export function Plans() {
             Planos
           </span>
           <h2 className="text-4xl lg:text-6xl font-bold text-primary text-balance">
-            Velocidade pra cada estilo de vida.
+            Escolha a velocidade ideal para sua casa ou empresa
           </h2>
           <p className="mt-5 text-lg text-muted-foreground max-w-xl">
-            Escolha o plano ideal e fale com a gente. Consultamos a disponibilidade
-            para a sua rua na hora.
+            Fale com a gente e consultamos a disponibilidade para a sua rua na hora.
           </p>
         </div>
 
