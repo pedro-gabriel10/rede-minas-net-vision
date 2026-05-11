@@ -38,16 +38,16 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white text-balance leading-[1.05]"
           >
-            Internet fibra rápida e{" "}
+            Internet{" "}
             <span className="relative inline-block">
               <span className="bg-gradient-to-r from-[oklch(0.78_0.18_60)] to-[oklch(0.85_0.15_70)] bg-clip-text text-transparent">
-                estável
+                Fibra
               </span>
               <svg className="absolute -bottom-2 left-0 w-full" height="12" viewBox="0 0 300 12" fill="none">
                 <path d="M2 9 Q 75 2, 150 6 T 298 4" stroke="oklch(0.72 0.18 50)" strokeWidth="3" strokeLinecap="round" />
               </svg>
             </span>{" "}
-            para Campo Belo, Santana do Jacaré, Candeias e região.
+            em Campo Belo, Santana do Jacaré, Candeias e Região
           </motion.h1>
 
           <motion.p
@@ -56,8 +56,8 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="mt-6 sm:mt-8 text-base sm:text-lg lg:text-xl text-white/80 max-w-2xl text-balance"
           >
-            Chega de travamentos e quedas. Consulte disponibilidade para sua rua e
-            fale com nosso atendimento rapidamente pelo WhatsApp.
+            Conexão rápida, estável e atendimento rápido via WhatsApp. Consulte
+            disponibilidade para sua rua.
           </motion.p>
 
           <motion.ul
@@ -86,7 +86,7 @@ export function Hero() {
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-2 rounded-full bg-gradient-orange px-8 py-5 text-base sm:text-lg font-bold text-white shadow-orange hover:shadow-elegant hover:scale-[1.03] transition-all"
             >
-              Consultar disponibilidade
+              Consultar disponibilidade da minha rua
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
             </a>
             <a
@@ -98,6 +98,15 @@ export function Hero() {
               Falar no WhatsApp
             </a>
           </motion.div>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.6 }}
+            className="mt-5 text-sm text-white/65"
+          >
+            Empresa regional, atendimento próximo de você
+          </motion.p>
 
           <motion.div
             initial={{ opacity: 0 }}

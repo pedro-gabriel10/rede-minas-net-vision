@@ -19,11 +19,10 @@ export function Plans() {
             Planos
           </span>
           <h2 className="text-4xl lg:text-6xl font-bold text-primary text-balance">
-            Velocidade pra cada estilo de vida.
+            Escolha a velocidade ideal para sua casa ou empresa
           </h2>
           <p className="mt-5 text-lg text-muted-foreground max-w-xl">
-            Escolha o plano ideal e fale com a gente. Consultamos a disponibilidade
-            para a sua rua na hora.
+            Fale com a gente e consultamos a disponibilidade para a sua rua na hora.
           </p>
         </div>
 
@@ -83,7 +82,7 @@ export function Plans() {
                     : "bg-primary text-primary-foreground hover:bg-primary/90"
                 }`}
               >
-                Consultar disponibilidade para sua rua
+                Consultar disponibilidade da minha rua
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </a>
             </motion.div>
