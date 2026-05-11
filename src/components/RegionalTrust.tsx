@@ -21,11 +21,11 @@ export function RegionalTrust() {
                 Confiança regional
               </span>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-balance leading-tight">
-                Empresa regional, atendimento próximo de você
+                Conectando clientes na região
               </h2>
               <p className="mt-5 text-base sm:text-lg text-white/75 max-w-xl">
-                Atendemos Campo Belo, Santana do Jacaré, Candeias e zonas rurais,
-                oferecendo suporte próximo e atendimento humanizado.
+                Levando internet fibra para Campo Belo, Santana do Jacaré, Candeias
+                e zonas rurais com atendimento próximo e conexão estável.
               </p>
             </div>
 

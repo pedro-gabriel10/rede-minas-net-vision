@@ -22,10 +22,24 @@ export function Hero() {
 
       <div className="container mx-auto px-5 lg:px-8 relative z-10 pt-32 pb-20">
         <div className="max-w-4xl">
+          <motion.ul
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="flex flex-wrap gap-x-5 gap-y-2 text-[11px] sm:text-xs font-medium text-white/75 mb-5"
+          >
+            {["Atendimento regional", "Internet fibra estável", "Suporte rápido via WhatsApp"].map((t) => (
+              <li key={t} className="flex items-center gap-1.5">
+                <span className="text-[oklch(0.78_0.18_60)]">✔</span>
+                <span>{t}</span>
+              </li>
+            ))}
+          </motion.ul>
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.6, delay: 0.05 }}
             className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 backdrop-blur px-4 py-1.5 text-xs font-medium text-white/90 mb-8"
           >
             <span className="h-2 w-2 rounded-full bg-[oklch(0.72_0.18_145)] animate-pulse" />

@@ -1,5 +1,6 @@
-import { Instagram, MapPin, Phone } from "lucide-react";
+import { Instagram, MapPin, Phone, ArrowRight } from "lucide-react";
 import logo from "@/assets/logo.png";
+import { WHATSAPP_LINK } from "./WhatsappFloat";
 
 export function Footer() {
   return (
@@ -15,9 +16,18 @@ export function Footer() {
               </div>
             </div>
             <p className="text-sm text-white/60 max-w-md leading-relaxed">
-              Provedora de internet fibra óptica em Campo Belo, Santana do Jacaré, Candeias
-              e zonas rurais. Conexão estável, atendimento humano.
+              Provedor de internet fibra óptica em Campo Belo MG, Santana do Jacaré MG,
+              Candeias MG e zonas rurais. Conexão estável e atendimento humano via WhatsApp.
             </p>
+            <a
+              href={WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group mt-6 inline-flex items-center justify-center gap-2 rounded-full bg-gradient-orange px-6 py-3.5 text-sm font-bold text-white shadow-orange hover:shadow-elegant hover:scale-[1.02] transition-all"
+            >
+              Consultar disponibilidade da minha rua
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </a>
           </div>
 
           <div>
